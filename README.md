@@ -7,6 +7,7 @@
 Инструмент для работы с покадровой анимацией
 Пример:
 ```kotlin
+val animationBuilder = FrameByFrameAnimation.Builder(context)
 val anim = animationBuilder
                 .setFrameCount(76)
                 .setFrameDuration(1000/30)
