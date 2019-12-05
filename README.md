@@ -33,7 +33,7 @@ val anim = animationBuilder
 ## BottomSheetDialogBase
 
 Базовый класс и набор стилей для BottomSheetDialog позволяющий отображать диалоговое окно с отступами
-![Пример]()
+![Пример](https://raw.githubusercontent.com/BackDuck/AndroidUtils/master/repfiles/photo_2019-12-05_15-45-40.jpg)
 Пример:
 ```kotlin
 class TestDialog : BottomSheetDialogBase() {
