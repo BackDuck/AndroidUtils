@@ -18,3 +18,30 @@ val anim = animationBuilder
         loader.setImageDrawable(anim)
         anim.start()
 ```
+
+## CacheController
+
+Инструмент для локального кеширования http запросов с использованием rx
+![Пример]()
+Пример:
+```kotlin
+ override fun getTest(useCache: Boolean): Single<TestModel> {
+        return cache.sendRequest(halvaRequests.getTestData(), useCache)
+    }
+```
+
+## BottomSheetDialogBase
+
+Базовый класс и набор стилей для BottomSheetDialog позволяющий отображать диалоговое окно с отступами
+![Пример]()
+Пример:
+```kotlin
+class TestDialog : BottomSheetDialogBase() {
+
+    override val layout: Int = R.layout.test_view
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+    }
+}
+```
+
