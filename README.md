@@ -5,7 +5,7 @@
 ## FrameByFrameAnimation
 
 Инструмент для работы с покадровой анимацией
-[Прямая сслыка](https://github.com/BackDuck/AndroidUtils/tree/master/app/src/main/java/helper/utils/framebyframeanimation)
+[Прямая ссылка](https://github.com/BackDuck/AndroidUtils/tree/master/app/src/main/java/helper/utils/framebyframeanimation)
 
 Пример:
 ```kotlin
@@ -22,7 +22,7 @@ val anim = animationBuilder
 ```
 
 ## CacheController
-[Прямая сслыка](https://github.com/BackDuck/AndroidUtils/tree/master/app/src/main/java/helper/utils/rxlocalcacheforrequests)
+[Прямая ссылка](https://github.com/BackDuck/AndroidUtils/tree/master/app/src/main/java/helper/utils/rxlocalcacheforrequests)
 
 Инструмент для локального кеширования http запросов с использованием rx
 
@@ -34,7 +34,7 @@ val anim = animationBuilder
 ```
 
 ## BottomSheetDialogBase
-[Прямая сслыка](https://github.com/BackDuck/AndroidUtils/tree/master/app/src/main/java/helper/utils/bottomsheetdialogwithpaddings)
+[Прямая ссылка](https://github.com/BackDuck/AndroidUtils/tree/master/app/src/main/java/helper/utils/bottomsheetdialogwithpaddings)
 
 Базовый класс и набор стилей для BottomSheetDialog позволяющий отображать диалоговое окно с отступами
 ![Пример](https://raw.githubusercontent.com/BackDuck/AndroidUtils/master/repfiles/photo_2019-12-05_15-45-40.jpg)
@@ -51,7 +51,7 @@ class TestDialog : BottomSheetDialogBase() {
 ```
 
 ## ViewPagerHeightWrapContent
-[Прямая сслыка](https://github.com/BackDuck/AndroidUtils/tree/master/app/src/main/java/helper/utils/viewpagerwithwrapcontentinheight)
+[Прямая ссылка](https://github.com/BackDuck/AndroidUtils/tree/master/app/src/main/java/helper/utils/viewpagerwithwrapcontentinheight)
 
 ViewPager поддерживающий wrap_content по высоте
 
