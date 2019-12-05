@@ -22,7 +22,7 @@ val anim = animationBuilder
 ## CacheController
 
 Инструмент для локального кеширования http запросов с использованием rx
-![Пример]()
+
 Пример:
 ```kotlin
  override fun getTest(useCache: Boolean): Single<TestModel> {
